@@ -47,7 +47,7 @@ def recommend():
         if i > 10:
             break
 
-st.image("http://movietime.ie/wp-content/uploads/2018/01/cropped-cropped-Header.jpg", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
+st.image("Header.jpg", caption=None, width=None, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 
 st.title("Movie Recommender")
 movies_list=pickle.load(open('movies.pkl','rb'))
